@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Goraria - Developer Portfolio</title>
+
+  <meta charset="utf-8"/>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+
+  <meta name="description" content="Truong Giang Pham (Goraria) - Passionate JavaScript Developer from Vietnam. Specializing in React, Node.js, and modern web technologies. Currently studying at HAU and always learning new technologies."/>
+
+  <link rel="stylesheet" href="styles/core.css"/>
+  <link rel="stylesheet" href="styles/demo.css"/>
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="fonts/iconify/css/boxicons.css" />
+
+  <link rel="stylesheet" href="styles/perfect-scrollbar.css" />
+  <link rel="stylesheet" href="styles/apex-charts.css" />
+
+  <script src="others/helpers.js"></script>
+  <script src="scripts/config.js"></script>
+</head>
+<body>
+<div class="layout-wrapper layout-content-navbar">
+  <div class="layout-container">
+
+    <!-- Layout container -->
+    <div class="layout-page">
+      <!-- Navbar -->
+
+      <nav class="layout-navbar container-xxl navbar-detached navbar navbar-expand-xl align-items-center bg-navbar-theme"
+           id="layout-navbar">
+        <div class="layout-menu-toggle navbar-nav align-items-xl-center me-4 me-xl-0 d-xl-none">
+          <a class="nav-item nav-link px-0 me-xl-6" href="javascript:void(0)">
+            <i class="icon-base bx bx-menu icon-md"></i>
+          </a>
+        </div>
+
+        <div class="navbar-nav-right d-flex align-items-center justify-content-end" id="navbar-collapse">
+          <!-- Search -->
+          <div class="navbar-nav align-items-center me-auto">
+            <div class="nav-item d-flex align-items-center">
+              <span class="w-px-22 h-px-22"><i class="icon-base bx bx-search icon-md"></i></span>
+              <input
+                      type="text"
+                      class="form-control border-0 shadow-none ps-1 ps-sm-2 d-md-block d-none"
+                      placeholder="Search..."
+                      aria-label="Search..."/>
+            </div>
+          </div>
+          <!-- /Search -->
+
+          <ul class="navbar-nav flex-row align-items-center ms-md-auto">
+            <!-- User -->
+            <li class="nav-item navbar-dropdown dropdown-user dropdown">
+              <a
+                class="nav-link dropdown-toggle hide-arrow p-0"
+                href="javascript:void(0);"
+                data-bs-toggle="dropdown"
+              >
+                <div class="avatar avatar-online">
+                  <img src="https://avatars.githubusercontent.com/u/95116413?v=4" alt class="w-px-40 h-auto rounded-circle"/>
+                </div>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex">
+                      <div class="flex-shrink-0 me-3">
+                        <div class="avatar avatar-online">
+                          <img src="https://avatars.githubusercontent.com/u/95116413?v=4" alt class="w-px-40 h-auto rounded-circle"/>
+                        </div>
+                      </div>
+                      <div class="flex-grow-1">
+                        <h6 class="mb-0">Truong Giang Pham</h6>
+                        <small class="text-body-secondary">JavaScript Developer</small>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <div class="dropdown-divider my-1"></div>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://github.com/goraria" target="_blank">
+                    <i class="icon-base bx bx-user icon-md me-3"></i><span>My Profile</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="mailto:truonggiangpham.workspaces@gmail.com">
+                    <i class="icon-base bx bx-envelope icon-md me-3"></i><span>Contact</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://github.com/goraria" target="_blank">
+                    <span class="d-flex align-items-center align-middle">
+                      <i class="flex-shrink-0 icon-base bx bxl-github icon-md me-3"></i
+                      ><span class="flex-grow-1 align-middle">GitHub Portfolio</span>
+                      <span class="flex-shrink-0 badge rounded-pill bg-primary">14</span>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <div class="dropdown-divider my-1"></div>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="mailto:truonggiangpham.workspaces@gmail.com">
+                    <i class="icon-base bx bx-log-out icon-md me-3"></i><span>Contact Me</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <!--/ User -->
+          </ul>
+        </div>
+      </nav>
+
+      <!-- / Navbar -->
+
+      <!-- Content wrapper -->
+      <div class="content-wrapper">
+        <!-- Content -->
+        <div class="container-xxl flex-grow-1 container-p-y">
+          <div class="row">
+            <div class="col-xxl-8 mb-6 order-0">
+              <div class="card">
+                <div class="d-flex align-items-start row">
+                  <div class="col-sm-7">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary mb-3">Hello There! 👋</h5>
+                      <h3 class="mb-4">I'm <span class="text-primary">Giang</span> ⚡</h3>
+                      <p class="mb-6">
+                        A Passionate <strong>JavaScripts Developer</strong> from Vietnam<br>
+                        Currently studying at HAU - Hanoi University of Architecture<br>
+                        Based in Hoa Binh, Vietnam 🌍
+                      </p>
+                      <div class="mb-4">
+                        <h6 class="mb-3">🚀 What I'm up to:</h6>
+                        <ul class="list-unstyled">
+                          <li class="mb-2"><i class="icon-base bx bx-code-alt text-info me-2"></i>Currently learning <strong>Flutter</strong></li>
+                          <li class="mb-2"><i class="icon-base bx bx-group text-success me-2"></i>Looking to collaborate on <strong>Flutter Projects</strong></li>
+                          <li class="mb-2"><i class="icon-base bx bx-help-circle text-warning me-2"></i>Seeking help with <strong>Web Services</strong></li>
+                          <li class="mb-2"><i class="icon-base bx bx-chat text-primary me-2"></i>Ask me about <strong>React</strong></li>
+                        </ul>
+                      </div>
+                      <a href="mailto:truonggiangpham.workspaces@gmail.com" class="btn btn-primary me-3">
+                        <i class="icon-base bx bx-envelope me-2"></i>Contact Me
+                      </a>
+                      <a href="https://github.com/goraria" target="_blank" class="btn btn-outline-primary">
+                        <i class="icon-base bx bxl-github me-2"></i>GitHub
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-5 text-center text-sm-left">
+                    <div class="card-body pb-0 px-0 px-md-6">
+                      <img src="https://avatars.githubusercontent.com/u/95116413?v=4" alt="Goraria Avatar" class="w-px-200 h-auto rounded-circle mb-4">
+                      <div class="d-flex justify-content-center gap-3 mb-4">
+                        <a href="https://www.facebook.com/Gortheia/" target="_blank" class="btn btn-icon btn-outline-primary">
+                          <i class="icon-base bx bxl-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com/Gortheia" target="_blank" class="btn btn-icon btn-outline-info">
+                          <i class="icon-base bx bxl-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/gortheia/" target="_blank" class="btn btn-icon btn-outline-danger">
+                          <i class="icon-base bx bxl-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/goraria" target="_blank" class="btn btn-icon btn-outline-primary">
+                          <i class="icon-base bx bxl-linkedin"></i>
+                        </a>
+                      </div>
+                      <div class="text-center">
+                        <small class="text-muted">843 contributions in the last year</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-lg-12 col-md-4 order-1">
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-6 mb-6">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <div class="card-title d-flex align-items-start justify-content-between mb-4">
+                        <div class="avatar flex-shrink-0">
+                          <span class="avatar-initial rounded bg-label-success">
+                            <i class="icon-base bx bx-code-alt icon-lg text-success"></i>
+                          </span>
+                        </div>
+                        <div class="dropdown">
+                          <button
+                                  class="btn p-0"
+                                  type="button"
+                                  id="cardOpt5"
+                                  data-bs-toggle="dropdown"
+                                  aria-haspopup="true"
+                                  aria-expanded="false">
+                            <i class="icon-base bx bx-dots-vertical-rounded text-body-secondary"></i>
+                          </button>
+                          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="cardOpt5">
+                            <a class="dropdown-item" href="https://github.com/goraria" target="_blank">View GitHub</a>
+                            <a class="dropdown-item" href="mailto:truonggiangpham.workspaces@gmail.com">Contact</a>
+                          </div>
+                        </div>
+                      </div>
+                      <p class="mb-1">Projects</p>
+                      <h4 class="card-title mb-3">14+</h4>
+                      <small class="text-success fw-medium"
+                      ><i class="icon-base bx bx-up-arrow-alt"></i> Active Development</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-6 mb-6">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <div class="card-title d-flex align-items-start justify-content-between mb-4">
+                        <div class="avatar flex-shrink-0">
+                          <span class="avatar-initial rounded bg-label-info">
+                            <i class="icon-base bx bx-git-branch icon-lg text-info"></i>
+                          </span>
+                        </div>
+                        <div class="dropdown">
+                          <button
+                                  class="btn p-0"
+                                  type="button"
+                                  id="cardOpt6"
+                                  data-bs-toggle="dropdown"
+                                  aria-haspopup="true"
+                                  aria-expanded="false">
+                            <i class="icon-base bx bx-dots-vertical-rounded text-body-secondary"></i>
+                          </button>
+                          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="cardOpt6">
+                            <a class="dropdown-item" href="https://github.com/goraria" target="_blank">View More</a>
+                            <a class="dropdown-item" href="mailto:truonggiangpham.workspaces@gmail.com">Contact</a>
+                          </div>
+                        </div>
+                      </div>
+                      <p class="mb-1">Contributions</p>
+                      <h4 class="card-title mb-3">843</h4>
+                      <small class="text-success fw-medium"
+                      ><i class="icon-base bx bx-up-arrow-alt"></i> Last Year</small
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Skills Overview -->
+            <div class="col-12 col-xxl-8 order-2 order-md-3 order-xxl-2 mb-6 skills-overview">
+              <div class="card">
+                <div class="row row-bordered g-0">
+                  <div class="col-lg-8">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                      <div class="card-title mb-0">
+                        <h5 class="m-0 me-2">Technical Skills</h5>
+                      </div>
+                      <div class="dropdown">
+                        <button
+                                class="btn p-0"
+                                type="button"
+                                id="skillsOverview"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false">
+                          <i class="icon-base bx bx-dots-vertical-rounded icon-lg text-body-secondary"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="skillsOverview">
+                          <a class="dropdown-item" href="https://github.com/goraria" target="_blank">View Portfolio</a>
+                          <a class="dropdown-item" href="mailto:truonggiangpham.workspaces@gmail.com">Contact</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="px-3 py-4">
+                      <div class="row g-4">
+                        <div class="col-md-6">
+                          <h6 class="mb-3"><i class="icon-base bx bx-code-alt text-primary me-2"></i>Frontend</h6>
+                          <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="badge bg-label-primary">React</span>
+                            <span class="badge bg-label-primary">Vue.js</span>
+                            <span class="badge bg-label-primary">Angular</span>
+                            <span class="badge bg-label-primary">Next.js</span>
+                            <span class="badge bg-label-primary">Nuxt.js</span>
+                            <span class="badge bg-label-secondary">TypeScript</span>
+                            <span class="badge bg-label-secondary">JavaScript</span>
+                          </div>
+                          <h6 class="mb-3"><i class="icon-base bx bx-server text-success me-2"></i>Backend</h6>
+                          <div class="d-flex flex-wrap gap-2">
+                            <span class="badge bg-label-success">Node.js</span>
+                            <span class="badge bg-label-success">Express</span>
+                            <span class="badge bg-label-success">Python</span>
+                            <span class="badge bg-label-success">C#</span>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <h6 class="mb-3"><i class="icon-base bx bx-data text-warning me-2"></i>Database</h6>
+                          <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="badge bg-label-warning">MongoDB</span>
+                            <span class="badge bg-label-warning">MySQL</span>
+                          </div>
+                          <h6 class="mb-3"><i class="icon-base bx bx-mobile-alt text-info me-2"></i>Mobile & Tools</h6>
+                          <div class="d-flex flex-wrap gap-2">
+                            <span class="badge bg-label-info">Flutter</span>
+                            <span class="badge bg-label-info">Swift</span>
+                            <span class="badge bg-label-dark">Git</span>
+                            <span class="badge bg-label-dark">VS Code</span>
+                            <span class="badge bg-label-dark">Xcode</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card-body px-xl-9 py-12 d-flex align-items-center flex-column">
+                      <div class="text-center mb-6">
+                        <div class="avatar avatar-xl mb-3">
+                          <span class="avatar-initial rounded bg-label-primary">
+                            <i class="icon-base bx bx-trending-up icon-2xl text-primary"></i>
+                          </span>
+                        </div>
+                        <h6 class="mb-0">Full Stack Developer</h6>
+                        <small class="text-muted">Passionate & Dedicated</small>
+                      </div>
+
+                      <div class="text-center fw-medium my-6">🚀 Always Learning & Growing</div>
+
+                      <div class="d-flex gap-11 justify-content-between">
+                        <div class="d-flex">
+                          <div class="avatar me-2">
+                                    <span class="avatar-initial rounded-2 bg-label-primary"
+                                    ><i class="icon-base bx bx-book icon-lg text-primary"></i
+                                    ></span>
+                          </div>
+                          <div class="d-flex flex-column">
+                            <small>Current</small>
+                            <h6 class="mb-0">Flutter</h6>
+                          </div>
+                        </div>
+                        <div class="d-flex">
+                          <div class="avatar me-2">
+                                    <span class="avatar-initial rounded-2 bg-label-info"
+                                    ><i class="icon-base bx bx-heart icon-lg text-info"></i
+                                    ></span>
+                          </div>
+                          <div class="d-flex flex-column">
+                            <small>Favorite</small>
+                            <h6 class="mb-0">React</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-8 col-lg-12 col-xxl-4 order-3 order-md-2 profile-report">
+              <div class="row">
+                <div class="col-6 mb-6 experience">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <div class="card-title d-flex align-items-start justify-content-between mb-4">
+                        <div class="avatar flex-shrink-0">
+                          <span class="avatar-initial rounded bg-label-primary">
+                            <i class="icon-base bx bx-briefcase icon-lg text-primary"></i>
+                          </span>
+                        </div>
+                        <div class="dropdown">
+                          <button
+                                  class="btn p-0"
+                                  type="button"
+                                  id="cardOpt4"
+                                  data-bs-toggle="dropdown"
+                                  aria-haspopup="true"
+                                  aria-expanded="false">
+                            <i class="icon-base bx bx-dots-vertical-rounded text-body-secondary"></i>
+                          </button>
+                          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="cardOpt4">
+                            <a class="dropdown-item" href="https://github.com/goraria" target="_blank">View Portfolio</a>
+                            <a class="dropdown-item" href="mailto:truonggiangpham.workspaces@gmail.com">Contact</a>
+                          </div>
+                        </div>
+                      </div>
+                      <p class="mb-1">Experience</p>
+                      <h4 class="card-title mb-3">3+ Years</h4>
+                      <small class="text-success fw-medium"
+                      ><i class="icon-base bx bx-up-arrow-alt"></i> Growing</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mb-6 education">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <div class="card-title d-flex align-items-start justify-content-between mb-4">
+                        <div class="avatar flex-shrink-0">
+                          <span class="avatar-initial rounded bg-label-info">
+                            <i class="icon-base bx bx-book-open icon-lg text-info"></i>
+                          </span>
+                        </div>
+                        <div class="dropdown">
+                          <button
+                                  class="btn p-0"
+                                  type="button"
+                                  id="cardOpt1"
+                                  data-bs-toggle="dropdown"
+                                  aria-haspopup="true"
+                                  aria-expanded="false">
+                            <i class="icon-base bx bx-dots-vertical-rounded text-body-secondary"></i>
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="cardOpt1">
+                            <a class="dropdown-item" href="https://github.com/goraria" target="_blank">View More</a>
+                            <a class="dropdown-item" href="mailto:truonggiangpham.workspaces@gmail.com">Contact</a>
+                          </div>
+                        </div>
+                      </div>
+                      <p class="mb-1">Education</p>
+                      <h4 class="card-title mb-3">HAU</h4>
+                      <small class="text-info fw-medium"
+                      ><i class="icon-base bx bx-book icon-sm"></i> Architecture</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 mb-6 profile-summary">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <div
+                              class="d-flex justify-content-between align-items-center flex-sm-row flex-column gap-10 flex-wrap">
+                        <div class="d-flex flex-sm-column flex-row align-items-start justify-content-between">
+                          <div class="card-title mb-6">
+                            <h5 class="text-nowrap mb-1">Developer Profile</h5>
+                            <span class="badge bg-label-success">ACTIVE 2025</span>
+                          </div>
+                          <div class="mt-sm-auto">
+                                    <span class="text-success text-nowrap fw-medium"
+                                    ><i class="icon-base bx bx-up-arrow-alt"></i> Constantly Learning</span
+                                    >
+                            <h4 class="mb-0">Full Stack</h4>
+                          </div>
+                        </div>
+                        <div class="d-flex flex-column align-items-center">
+                          <div class="avatar avatar-lg mb-3">
+                            <span class="avatar-initial rounded bg-label-primary">
+                              <i class="icon-base bx bx-code-curly icon-2xl text-primary"></i>
+                            </span>
+                          </div>
+                          <small class="text-muted">Goraria</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Featured Projects -->
+            <div class="col-md-6 col-lg-4 col-xl-4 order-0 mb-6">
+              <div class="card h-100">
+                <div class="card-header d-flex justify-content-between">
+                  <div class="card-title mb-0">
+                    <h5 class="mb-1 me-2">Featured Projects</h5>
+                    <p class="card-subtitle">Portfolio Highlights</p>
+                  </div>
+                  <div class="dropdown">
+                    <button
+                            class="btn text-body-secondary p-0"
+                            type="button"
+                            id="featuredProjects"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false">
+                      <i class="icon-base bx bx-dots-vertical-rounded icon-lg"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="featuredProjects">
+                      <a class="dropdown-item" href="https://github.com/goraria" target="_blank">View All</a>
+                      <a class="dropdown-item" href="mailto:truonggiangpham.workspaces@gmail.com">Contact</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center mb-6">
+                    <div class="d-flex flex-column align-items-center gap-1">
+                      <h3 class="mb-1">14+</h3>
+                      <small>Total Repositories</small>
+                    </div>
+                    <div class="avatar avatar-lg">
+                      <span class="avatar-initial rounded bg-label-primary">
+                        <i class="icon-base bx bx-git-repo-forked icon-2xl text-primary"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <ul class="p-0 m-0">
+                    <li class="d-flex align-items-center mb-5">
+                      <div class="avatar flex-shrink-0 me-3">
+                                <span class="avatar-initial rounded bg-label-primary"
+                                ><i class="icon-base bx bx-desktop"></i
+                                ></span>
+                      </div>
+                      <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                        <div class="me-2">
+                          <h6 class="mb-0">E-commerce</h6>
+                          <small>Node.js, JavaScript</small>
+                        </div>
+                        <div class="user-progress">
+                          <span class="badge bg-label-success">Active</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center mb-5">
+                      <div class="avatar flex-shrink-0 me-3">
+                                <span class="avatar-initial rounded bg-label-success"
+                                ><i class="icon-base bx bx-face"></i
+                                ></span>
+                      </div>
+                      <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                        <div class="me-2">
+                          <h6 class="mb-0">Face Recognition</h6>
+                          <small>YOLOv8, Python</small>
+                        </div>
+                        <div class="user-progress">
+                          <span class="badge bg-label-warning">AI/ML</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center mb-5">
+                      <div class="avatar flex-shrink-0 me-3">
+                                <span class="avatar-initial rounded bg-label-info"
+                                ><i class="icon-base bx bx-buildings"></i
+                                ></span>
+                      </div>
+                      <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                        <div class="me-2">
+                          <h6 class="mb-0">Library VR</h6>
+                          <small>C# .NET, 3D Model</small>
+                        </div>
+                        <div class="user-progress">
+                          <span class="badge bg-label-info">⭐ 4</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <div class="avatar flex-shrink-0 me-3">
+                                <span class="avatar-initial rounded bg-label-secondary"
+                                ><i class="icon-base bx bx-movie"></i
+                                ></span>
+                      </div>
+                      <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                        <div class="me-2">
+                          <h6 class="mb-0">Cinema App</h6>
+                          <small>WinForm, C#</small>
+                        </div>
+                        <div class="user-progress">
+                          <span class="badge bg-label-secondary">⭐ 4</span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Learning Progress -->
+            <div class="col-md-6 col-lg-4 order-1 mb-6">
+              <div class="card h-100">
+                <div class="card-header nav-align-top">
+                  <ul class="nav nav-pills flex-wrap row-gap-2" role="tablist">
+                    <li class="nav-item">
+                      <button
+                              type="button"
+                              class="nav-link active"
+                              role="tab"
+                              data-bs-toggle="tab"
+                              data-bs-target="#navs-tabs-line-card-learning"
+                              aria-controls="navs-tabs-line-card-learning"
+                              aria-selected="true">
+                        Learning
+                      </button>
+                    </li>
+                    <li class="nav-item">
+                      <button type="button" class="nav-link" role="tab">Goals</button>
+                    </li>
+                    <li class="nav-item">
+                      <button type="button" class="nav-link" role="tab">Progress</button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <div class="tab-content p-0">
+                    <div class="tab-pane fade show active" id="navs-tabs-line-card-learning" role="tabpanel">
+                      <div class="d-flex mb-6">
+                        <div class="avatar flex-shrink-0 me-3">
+                          <span class="avatar-initial rounded bg-label-info">
+                            <i class="icon-base bx bx-mobile-alt icon-lg text-info"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <p class="mb-0">Currently Learning</p>
+                          <div class="d-flex align-items-center">
+                            <h6 class="mb-0 me-1">Flutter</h6>
+                            <small class="text-success fw-medium">
+                              <i class="icon-base bx bx-trending-up icon-lg"></i>
+                              Active
+                            </small>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mb-4">
+                        <h6 class="mb-3">🎯 Current Focus:</h6>
+                        <div class="d-flex flex-wrap gap-2">
+                          <span class="badge bg-label-primary">Flutter Development</span>
+                          <span class="badge bg-label-success">Web Services</span>
+                          <span class="badge bg-label-info">Cross-Platform</span>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center justify-content-center mt-6 gap-3">
+                        <div class="flex-shrink-0">
+                          <div class="avatar">
+                            <span class="avatar-initial rounded bg-label-warning">
+                              <i class="icon-base bx bx-book-open icon-lg text-warning"></i>
+                            </span>
+                          </div>
+                        </div>
+                        <div>
+                          <h6 class="mb-0">Learning Journey</h6>
+                          <small>Building expertise in mobile development</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact & Social -->
+            <div class="col-md-6 col-lg-4 order-2 mb-6">
+              <div class="card h-100">
+                <div class="card-header d-flex align-items-center justify-content-between">
+                  <h5 class="card-title m-0 me-2">Get In Touch</h5>
+                  <div class="dropdown">
+                    <button
+                            class="btn text-body-secondary p-0"
+                            type="button"
+                            id="contactID"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false">
+                      <i class="icon-base bx bx-dots-vertical-rounded icon-lg"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="contactID">
+                      <a class="dropdown-item" href="mailto:truonggiangpham.workspaces@gmail.com">Email Primary</a>
+                      <a class="dropdown-item" href="mailto:gorariagroup@gmail.com">Email Secondary</a>
+                      <a class="dropdown-item" href="https://github.com/goraria" target="_blank">GitHub Profile</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body pt-4">
+                  <ul class="p-0 m-0">
+                    <li class="d-flex align-items-center mb-6">
+                      <div class="avatar flex-shrink-0 me-3">
+                        <span class="avatar-initial rounded bg-label-danger">
+                          <i class="icon-base bx bxl-gmail icon-lg text-danger"></i>
+                        </span>
+                      </div>
+                      <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                        <div class="me-2">
+                          <small class="d-block">Primary Email</small>
+                          <h6 class="fw-normal mb-0">Work Contact</h6>
+                        </div>
+                        <div class="user-progress d-flex align-items-center gap-2">
+                          <a href="mailto:truonggiangpham.workspaces@gmail.com" class="btn btn-sm btn-outline-primary">
+                            <i class="icon-base bx bx-envelope"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center mb-6">
+                      <div class="avatar flex-shrink-0 me-3">
+                        <span class="avatar-initial rounded bg-label-dark">
+                          <i class="icon-base bx bxl-github icon-lg text-dark"></i>
+                        </span>
+                      </div>
+                      <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                        <div class="me-2">
+                          <small class="d-block">GitHub</small>
+                          <h6 class="fw-normal mb-0">@goraria</h6>
+                        </div>
+                        <div class="user-progress d-flex align-items-center gap-2">
+                          <a href="https://github.com/goraria" target="_blank" class="btn btn-sm btn-outline-dark">
+                            <i class="icon-base bx bx-link-external"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center mb-6">
+                      <div class="avatar flex-shrink-0 me-3">
+                        <span class="avatar-initial rounded bg-label-primary">
+                          <i class="icon-base bx bxl-facebook icon-lg text-primary"></i>
+                        </span>
+                      </div>
+                      <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                        <div class="me-2">
+                          <small class="d-block">Facebook</small>
+                          <h6 class="fw-normal mb-0">Gortheia</h6>
+                        </div>
+                        <div class="user-progress d-flex align-items-center gap-2">
+                          <a href="https://www.facebook.com/Gortheia/" target="_blank" class="btn btn-sm btn-outline-primary">
+                            <i class="icon-base bx bx-link-external"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center mb-6">
+                      <div class="avatar flex-shrink-0 me-3">
+                        <span class="avatar-initial rounded bg-label-info">
+                          <i class="icon-base bx bxl-twitter icon-lg text-info"></i>
+                        </span>
+                      </div>
+                      <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                        <div class="me-2">
+                          <small class="d-block">Twitter/X</small>
+                          <h6 class="fw-normal mb-0">@Gortheia</h6>
+                        </div>
+                        <div class="user-progress d-flex align-items-center gap-2">
+                          <a href="https://twitter.com/Gortheia" target="_blank" class="btn btn-sm btn-outline-info">
+                            <i class="icon-base bx bx-link-external"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center mb-6">
+                      <div class="avatar flex-shrink-0 me-3">
+                        <span class="avatar-initial rounded bg-label-warning">
+                          <i class="icon-base bx bxl-instagram icon-lg text-warning"></i>
+                        </span>
+                      </div>
+                      <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                        <div class="me-2">
+                          <small class="d-block">Instagram</small>
+                          <h6 class="fw-normal mb-0">@gortheia</h6>
+                        </div>
+                        <div class="user-progress d-flex align-items-center gap-2">
+                          <a href="https://www.instagram.com/gortheia/" target="_blank" class="btn btn-sm btn-outline-warning">
+                            <i class="icon-base bx bx-link-external"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <div class="avatar flex-shrink-0 me-3">
+                        <span class="avatar-initial rounded bg-label-success">
+                          <i class="icon-base bx bx-map icon-lg text-success"></i>
+                        </span>
+                      </div>
+                      <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                        <div class="me-2">
+                          <small class="d-block">Location</small>
+                          <h6 class="fw-normal mb-0">Hoa Binh, Vietnam</h6>
+                        </div>
+                        <div class="user-progress d-flex align-items-center gap-2">
+                          <span class="badge bg-label-success">VN 🇻🇳</span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / Content -->
+
+        <!-- Footer -->
+        <footer class="content-footer footer bg-footer-theme">
+          <div class="container-xxl">
+            <div class="footer-container d-flex align-items-center justify-content-between py-4 flex-md-row flex-column">
+              <div class="mb-2 mb-md-0">
+                Copyright © 2020 -
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                Gorth Inc. All Rights Reserved.
+
+              </div>
+              <div class="d-none d-lg-inline-block">
+                Developer Portfolio -
+                <a href="https://github.com/goraria" target="_blank" class="footer-link">Visit GitHub</a> |
+                <a href="mailto:truonggiangpham.workspaces@gmail.com" class="footer-link">Contact</a>
+                Made with ❤️ by Truong Giang Pham.
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- / Footer -->
+
+        <div class="content-backdrop fade"></div>
+      </div>
+      <!-- Content wrapper -->
+    </div>
+    <!-- / Layout page -->
+  </div>
+
+  <div class="layout-overlay layout-menu-toggle"></div>
+</div>
+
+<script src="scripts/jquery.js"></script>
+<script src="scripts/popper.js"></script>
+<script src="scripts/bootstrap.js"></script>
+<script src="scripts/perfect-scrollbar.js"></script>
+<script src="others/menu.js"></script>
+<script src="scripts/apexcharts.js"></script>
+<script src="scripts/main.js"></script>
+<script src="scripts/dashboards-analytics.js"></script>
+<script async defer src="scripts/buttons.js"></script>
+</body>
+</html>

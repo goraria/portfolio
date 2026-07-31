@@ -1,0 +1,13 @@
+# IDE
+/.idea/
+
+# Build
+/.next
+
+# Library
+/node_modules
+
+# Enviroment
+/.env
+/.env.local
+/.env.development
