@@ -34,3 +34,6 @@ pnpm-debug.log*
 # Public environment template and Vercel output
 !.env.example
 .vercel/
+
+/io
+/in
