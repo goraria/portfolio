@@ -1,0 +1,133 @@
+<svg width="10" height="10" viewBox="0 0" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Royal -->
+        <linearGradient id="royal" x1="1" y1="1" x2="0" y2="0">
+            <stop offset="0%" stop-color="#8C6B3B"/>
+            <stop offset="25%" stop-color="#A08D57"/>
+            <stop offset="50%" stop-color="#B08D57"/>
+            <stop offset="75%" stop-color="#C89B41"/>
+            <stop offset="100%" stop-color="#D4AF37"/>
+        </linearGradient>
+
+        <!-- Antique Metal -->
+        <linearGradient id="gold-metal" x1="1" y1="1" x2="0" y2="0">
+            <stop offset="0%" stop-color="#C5AB50"/>
+            <stop offset="25%" stop-color="#E4D674"/>
+            <stop offset="50%" stop-color="#FBF8AE"/>
+            <stop offset="75%" stop-color="#F9FADE"/>
+            <stop offset="100%" stop-color="#AC933E"/>
+        </linearGradient>
+
+        <!-- Fancy Metal -->
+        <linearGradient id="fancy-metal" x1="1" y1="1" x2="0" y2="0">
+            <stop offset="0%" stop-color="#CC9900"/>
+            <stop offset="25%" stop-color="#D4AF37"/>
+            <stop offset="50%" stop-color="#DEB82D"/>
+            <stop offset="75%" stop-color="#E7CF27"/>
+            <stop offset="100%" stop-color="#FFDF00"/>
+        </linearGradient>
+
+        <!-- Gold Metal -->
+        <linearGradient id="golden-metal" x1="1" y1="1" x2="0" y2="0">
+            <stop offset="0%" stop-color="#C18700"/>
+            <stop offset="25%" stop-color="#D8A309"/>
+            <stop offset="50%" stop-color="#EABF14"/>
+            <stop offset="75%" stop-color="#EAD355"/>
+            <stop offset="100%" stop-color="#F7F18B"/>
+        </linearGradient>
+
+        <!-- Dark Metal -->
+        <linearGradient id="dark-metal" x1="1" y1="1" x2="0" y2="0">
+            <stop offset="0%" stop-color="#191919"/>
+            <stop offset="25%" stop-color="#393939"/>
+            <stop offset="50%" stop-color="#4B4B4B"/>
+            <stop offset="75%" stop-color="#535353"/>
+            <stop offset="100%" stop-color="#5D5D5D"/>
+        </linearGradient>
+
+        <!-- Silver Metal -->
+        <linearGradient id="silver-metal" x1="1" y1="1" x2="0" y2="0">
+            <stop offset="0%" stop-color="#B4B5B8"/>
+            <stop offset="25%" stop-color="#C0C0C3"/>
+            <stop offset="50%" stop-color="#CBCCCD"/>
+            <stop offset="75%" stop-color="#D7D7D8"/>
+            <stop offset="100%" stop-color="#E3E3E3"/>
+        </linearGradient>
+
+        <!-- Platinum Metal -->
+        <linearGradient id="platinum-metal" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#CDCDCD"/>
+            <stop offset="25%" stop-color="#DADADA"/>
+            <stop offset="50%" stop-color="#E6E6E6"/>
+            <stop offset="75%" stop-color="#F0F0F0"/>
+            <stop offset="100%" stop-color="#F6F6F6"/>
+        </linearGradient>
+
+        <!-- Champagne Metal -->
+        <linearGradient id="champagne-metal" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#FFFDF5"/>
+            <stop offset="50%" stop-color="#F3E6C9"/>
+            <stop offset="100%" stop-color="#CFC8BE"/>
+        </linearGradient>
+    </defs>
+
+    <rect width="10" height="10" fill="#FFF"/>
+
+    <polygon points="0,0 0.669872981077807,0 0.669872981077807,10 0,10" fill="#00F"/>
+
+    <polygon points="0,0 0,1 10,1 10,0" fill="#FF0"/>
+    <!--polygon points="0,0 1,0 1,10 0,10" fill="#F00"/-->
+    <polygon points="0.669872981077807,0 1.535898384862245,0 1.535898384862245,10 0.669872981077807,10" fill="#F00"/>
+
+    <polygon points="0,1 0,2 10,2 10,1" fill="#0FF"/>
+    <!--polygon points="1,0 2,0 2,10 1,10" fill="#0F0"/-->
+    <polygon points="1.535898384862245,0 2.401923788646684,0 2.401923788646684,10 1.535898384862245,10" fill="#0F0"/>
+
+    <polygon points="0,2 0,3 10,3 10,2" fill="#F0F"/>
+    <!--polygon points="2,0 3,0 3,10 2,10" fill="#00F"/-->
+    <polygon points="2.401923788646684,0 3.267949192431123,0 3.267949192431123,10 2.401923788646684,10" fill="#00F"/>
+
+    <polygon points="0,3 0,4 10,4 10,3" fill="#FF0"/>
+    <!--polygon points="3,0 4,0 4,10 3,10" fill="#F00"/-->
+    <polygon points="3.267949192431123,0 4.133974596215561,0 4.133974596215561,10 3.267949192431123,10" fill="#F00"/>
+
+    <polygon points="0,4 0,5 10,5 10,4" fill="#0FF"/>
+    <!--polygon points="4,0 5,0 5,10 4,10" fill="#0F0"/-->
+    <polygon points="4.133974596215561,0 5,0 5,10 4.133974596215561,10" fill="#0F0"/>
+
+    <polygon points="0,5 0,6 10,6 10,5" fill="#F0F"/>
+    <!--polygon points="5,0 6,0 6,10 5,10" fill="#00F"/-->
+    <polygon points="5,0 5.866025403784439,0 5.866025403784439,10 5,10" fill="#00F"/>
+
+    <polygon points="0,6 0,7 10,7 10,6" fill="#FF0"/>
+    <!--polygon points="6,0 7,0 7,10 6,10" fill="#F00"/-->
+    <polygon points="5.866025403784439,0 6.732050807568877,0 6.732050807568877,10 5.866025403784439,10" fill="#F00"/>
+
+    <polygon points="0,7 0,8 10,8 10,7" fill="#0FF"/>
+    <!--polygon points="7,0 8,0 8,10 7,10" fill="#0F0"/-->
+    <polygon points="6.732050807568877,0 7.598076211353316,0 7.598076211353316,10 6.732050807568877,10" fill="#0F0"/>
+
+    <polygon points="0,8 0,9 10,9 10,8" fill="#F0F"/>
+    <!--polygon points="8,0 9,0 9,10 8,10" fill="#00F"/-->
+    <polygon points="7.598076211353316,0 8.464101615137755,0 8.464101615137755,10 7.598076211353316,10" fill="#00F"/>
+
+    <polygon points="0,9 0,10 10,10 10,9" fill="#FF0"/>
+    <!--polygon points="9,0 10,0 10,10 9,10" fill="#F00"/-->
+    <polygon points="8.464101615137755,0 9.330127018922193,0 9.330127018922193,10 8.464101615137755,10" fill="#F00"/>
+
+    <polygon points="9.330127018922193,0 10,0 10,10 9.330127018922193,10" fill="#0F0"/>
+
+    <circle cx="5" cy="5" r="5" fill="none"/>
+    <circle cx="5" cy="0" r="5" fill="none"/>
+    <circle cx="5" cy="10" r="5" fill="none"/>
+
+    <polygon points="
+        5,0
+        9.330127018922193,2.5
+        9.330127018922193,7.5
+        5,10
+        0.669872981077807,7.5
+        0.669872981077807,2.5
+      " fill=""/>
+
+</svg>

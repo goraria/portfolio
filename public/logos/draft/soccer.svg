@@ -1,0 +1,60 @@
+<svg width="2048" height="2048" viewBox="512 512 1024 1024" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="royal" x1="1" y1="1" x2="0" y2="0">
+            <stop offset="0%" stop-color="#da9e10"/>
+            <stop offset="100%" stop-color="#da9e10"/>
+        </linearGradient>
+        <linearGradient id="inter" x1="1" y1="1" x2="0" y2="0">
+            <stop offset="0%" stop-color="#00239c"/>
+            <stop offset="100%" stop-color="#00239c"/>
+        </linearGradient>
+        <linearGradient id="chelsea" x1="1" y1="1" x2="0" y2="0">
+            <stop offset="0%" stop-color="#051495"/>
+            <stop offset="100%" stop-color="#051495"/>
+        </linearGradient>
+        <mask id="hole">
+            <rect x="512" y="512"
+                  width="1024" height="1024"
+                  fill="white"/>
+            <circle cx="1024"
+                    cy="1024"
+                    r="512"
+                    fill="black"/>
+        </mask>
+    </defs>
+
+    <rect width="2048" height="2048" fill="black" mask="url(#hole)" />
+
+    <line x1="624" y1="512" x2="624" y2="1536" stroke="#051495" stroke-width="80"/>
+    <line x1="704" y1="512" x2="704" y2="1536" stroke="black" stroke-width="80"/>
+    <line x1="784" y1="512" x2="784" y2="1536" stroke="#051495" stroke-width="80"/>
+    <line x1="864" y1="512" x2="864" y2="1536" stroke="black" stroke-width="80"/>
+    <line x1="944" y1="512" x2="944" y2="1536" stroke="#051495" stroke-width="80"/>
+    <line x1="1024" y1="512" x2="1024" y2="1536" stroke="black" stroke-width="80"/>
+    <line x1="1104" y1="512" x2="1104" y2="1536" stroke="#051495" stroke-width="80"/>
+    <line x1="1184" y1="512" x2="1184" y2="1536" stroke="black" stroke-width="80"/>
+    <line x1="1264" y1="512" x2="1264" y2="1536" stroke="#051495" stroke-width="80"/>
+    <line x1="1344" y1="512" x2="1344" y2="1536" stroke="black" stroke-width="80"/>
+    <line x1="1424" y1="512" x2="1424" y2="1536" stroke="#051495" stroke-width="80"/>
+<!--    <rect width="2048" height="2048" fill="white" />-->
+    <rect width="2048" height="2048" fill="white" mask="url(#hole)" />
+
+<!--    <circle cx="1024" cy="1024" r="256" fill="#FFFFFF" stroke-width="2" />-->
+    <circle cx="1024" cy="1024" r="508" fill="none" stroke="url(#royal)" stroke-width="8"/>
+    <circle cx="1024" cy="1024" r="494" fill="none" stroke="black" stroke-width="20"/>
+    <circle cx="1024" cy="1024" r="480" fill="none" stroke="url(#royal)" stroke-width="8"/>
+    <circle cx="1024" cy="1024" r="426" fill="none" stroke="white" stroke-width="100"/>
+    <circle cx="1024" cy="1024" r="372" fill="none" stroke="url(#royal)" stroke-width="8"/>
+
+<!--    <polygon-->
+<!--            points="-->
+<!--          1024,512-->
+<!--          1467.4050067376326,768-->
+<!--          1467.4050067376326,1280-->
+<!--          1024,1536-->
+<!--          580.5949932623674,1280-->
+<!--          580.5949932623674,768-->
+<!--        "-->
+<!--            fill="#AA00FF"-->
+<!--    />-->
+</svg>

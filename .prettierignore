@@ -1,0 +1,12 @@
+node_modules/
+coverage/
+.pnpm-store/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+dist/
+.astro/
+.vercel/
+public/
+components/ui/
+bun.lock
